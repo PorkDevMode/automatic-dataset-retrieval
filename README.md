@@ -1,2 +1,4 @@
 # automatic dataset retrieval
- Automatically retrieves datasets, requires a assemblyai api key and a config file for google drive
+Automatically retrieves datasets from BIG mp4 files, and converts them into the format needed for tacotron2 training. This requires brain function and python knowledge and im too lazy to test this release build but it should work.
+
+U gotta pip install all the dependencys, not that hard and i installed it on python 3.8 so it should work on 3.11 / 3.12 you also need to populate aai_key.txt with your assembly api key or the dialization wont work. you also need to get your google api creds by going to the google dev console, configuring your oauth consent screen, going to the library and enabling google drive api, and go to the credential screen and make a oauth 2.0 with admin perms to the account, then get the token and other file that has some long ass name and rename it to config.json and put it next to main.py and run run.bat. if u got any issues make a issue request and i will probably fix it for u or respond but if its dumb im closing it.
